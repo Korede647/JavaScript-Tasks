@@ -37,15 +37,15 @@ console.log(camelCasing("the-stealth-warrior"));
 
 
 
-let word = "the-winter-soldier";
-function tocamelcase(str) {
-     let dasplit = word.split(/[-_]/);
-     let casestr = dasplit[0];
+// let word = "the-winter-soldier";
+// function tocamelcase(str) {
+//      let dasplit = word.split(/[-_]/);
+//      let casestr = dasplit[0];
 
-for (let i = 0; i < dasplit.length; i++) {
-    casestr += dasplit[i].charAt(0).toUpperCase() + dasplit[i].slice[1];
-}
- casestr.join("")
-return casestr;
-  }
-console.log(tocamelcase(word));
+// for (let i = 0; i < dasplit.length; i++) {
+//     casestr += dasplit[i].charAt(0).toUpperCase() + dasplit[i].slice[1];
+// }
+//  casestr.join("")
+// return casestr;
+//   }
+// console.log(tocamelcase(word));
